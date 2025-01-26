@@ -1,0 +1,107 @@
+/*Project Title: Personal Bucket List */
+/*The project depicts that the Goals to acheive and the Goals which are fulfilled in my life*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Personal Bucket List</title>
+<style>
+body{
+font-family: 'Arial, sans-serif';
+    line-height: 1.4;
+    background: #f8f9fa;
+    color: #333;
+    padding: 0 1rem;
+}
+
+header {
+    text-align: center;
+    padding: 1.5rem 0;
+    background: #007bff;
+    color:white ;
+}
+header h1 {
+    font-size: 3rem;
+}
+
+main {
+    margin: 1rem auto;
+    max-width: 400px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #0056b3;
+    border-bottom: 5px solid #007bff;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border: 10px solid black;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 0.75rem;
+    font-size: 1.2rem;
+    color: #007bff;
+}
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background:  #007bff;
+    color: white;
+}
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 0 1rem;
+    }
+
+    li {
+        font-size: 0.9rem;
+    }
+}
+</style>
+</head>
+<body>
+<header>
+        <h1>MyBucket List</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Goals to Achieve</h2>
+            <ul>
+                <li><span class="icon">🌟</span> WEB DEVELPOER</li>
+                <li><span class="icon">🌟</span> ROAM THE COUNTRIES</li>
+                <li><span class="icon">🌟</span> GAME DEVELOPER</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Completed Goals</h2>
+            <ul>
+                <li><span class="icon">✅</span>Learned Java Full Stack</li>
+                <li><span class="icon">✅</span>Visited Tirupati</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Created by SAGAR</p>
+    </footer>
+</body>
+</html>
